@@ -1,5 +1,4 @@
-## User Creation API data ##
-
+User Creation API data
 {
     "username": "new",
     "first_name": "new",
@@ -11,8 +10,8 @@
 }
 
 
-## User Login API data ##
 
+User Login API data
 {
     "email": " ",
     "password": " "
@@ -20,25 +19,23 @@
 
 
 
-## Add user to Favourite ##
 
+Add user to Favourite
 {
     "favorite_user": user_id
 }
 
 
-## Remove/Delete user to Favourite pass the user_id to the url to remove user from favourite ##
 
+Remove/Delete user to Favourite pass the user_id to the url to remove user from favourite
 {
     "favorite_user": user_id
 }
 
+User_id == ranging from 1 to ∞
 
-## User_id == ranging from 1 t0 ∞ ##
 
-
-## List of all User Favourite ##
-
+List of all User Favourite
 [
     {
         "id": 1,
@@ -61,9 +58,7 @@
 ]
 
 
-## User authenticated Profile ##
-
-
+Authenticated User Profile
 {
     "id": 2,
     "email": "new@gmail.com",
@@ -74,8 +69,9 @@
     "gender": "male"
 }
 
-# Update Profile #
 
+
+Update Profile
 {
     "first_name": "new",
     "last_name": "new",
