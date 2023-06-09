@@ -1,0 +1,82 @@
+## User Creation API data ##
+
+{
+    "username": "new",
+    "first_name": "new",
+    "middle_name": "new",
+    "last_name": "new",
+    "email": "new@gmail.com",
+    "password": "Password@01",
+    "gender": "male"
+}
+
+
+## User Login API data ##
+
+{
+    "email": " ",
+    "password": " "
+}
+
+
+
+## Add user to Favourite ##
+
+{
+    "favorite_user": user_id
+}
+
+
+## Remove/Delete user to Favourite pass the user_id to the url to remove user from favourite ##
+
+{
+    "favorite_user": user_id
+}
+
+
+## User_id == ranging from 1 t0 ∞ ##
+
+
+## List of all User Favourite ##
+
+[
+    {
+        "id": 1,
+        "email": "admin@gmail.com",
+        "username": "",
+        "first_name": "",
+        "last_name": "",
+        "middle_name": "",
+        "gender": "MALE"
+    },
+    {
+        "id": 3,
+        "email": "old@gmail.com",
+        "username": "old",
+        "first_name": "old",
+        "last_name": "old",
+        "middle_name": "old",
+        "gender": "female"
+    }
+]
+
+
+## User authenticated Profile ##
+
+
+{
+    "id": 2,
+    "email": "new@gmail.com",
+    "username": "new",
+    "first_name": "new",
+    "last_name": "new",
+    "middle_name": "new",
+    "gender": "male"
+}
+
+# Update Profile #
+
+{
+    "first_name": "new",
+    "last_name": "new",
+}
